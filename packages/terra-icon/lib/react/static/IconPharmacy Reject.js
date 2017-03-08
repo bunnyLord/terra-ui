@@ -59,13 +59,13 @@ var SvgIcon = function SvgIcon(customProps) {
   return _react2.default.createElement(
     _Icon2.default,
     attributes,
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M47.7 23.2L24.8.3c-.5-.4-1.1-.4-1.6 0L.3 23.2c-.4.5-.4 1.1 0 1.6l22.9 22.9c.5.4 1.1.4 1.6 0l22.9-22.9c.4-.5.4-1.1 0-1.6zm-.7.9L24.1 47h-.2L1 24.1v-.2L23.9 1h.2L47 23.9v.2z' }),
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M24 8c3.9 3.9 4 13 4 13H15v6c0 10 9 13 9 13-3.9-3.9-4-13-4-13h13v-6c0-10-9-13-9-13z' })
+    _react2.default.createElement('path', { fill: '#E50000', d: 'M36 22c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm-9 12a8.96 8.96 0 0 1 14.2-7.3L28.7 39.2A8.75 8.75 0 0 1 27 34zm9 9c-1.9 0-3.7-.6-5.2-1.7l12.5-12.5c1 1.5 1.7 3.3 1.7 5.2 0 5-4 9-9 9z' }),
+    _react2.default.createElement('path', { d: 'M.4 4.5c-.6-.6-.6-1.6 0-2.2l1.1-1.1c.6-.6 1.6-.6 2.2 0L15 12.6H8.6L.4 4.5zm22 29.3c0-3.2 1.1-6.1 2.9-8.4H23v3h-3v-3h-3v-3h3v-3h3v3h3v2.2c2.5-2.6 6-4.3 9.9-4.3V15H7.1v7.6c0 6.3 5.1 11.4 11.4 11.4h3.9v-.2z' })
   );
 };
 
 SvgIcon.propTypes = propTypes;
 SvgIcon.defaultProps = { "aria-hidden": "true", "className": "", "viewBox": "0 0 48 48", "xmlns": "http://www.w3.org/2000/svg" };
-SvgIcon.displayName = "abnormal";
+SvgIcon.displayName = "pharmacyReject";
 
 exports.default = SvgIcon;

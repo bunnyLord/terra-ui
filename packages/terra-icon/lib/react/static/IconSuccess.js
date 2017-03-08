@@ -59,13 +59,13 @@ var SvgIcon = function SvgIcon(customProps) {
   return _react2.default.createElement(
     _Icon2.default,
     attributes,
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M47.7 23.2L24.8.3c-.5-.4-1.1-.4-1.6 0L.3 23.2c-.4.5-.4 1.1 0 1.6l22.9 22.9c.5.4 1.1.4 1.6 0l22.9-22.9c.4-.5.4-1.1 0-1.6zm-.7.9L24.1 47h-.2L1 24.1v-.2L23.9 1h.2L47 23.9v.2z' }),
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M24 8c3.9 3.9 4 13 4 13H15v6c0 10 9 13 9 13-3.9-3.9-4-13-4-13h13v-6c0-10-9-13-9-13z' })
+    _react2.default.createElement('path', { fill: '#78C346', d: 'M24 0c13.3 0 24 10.7 24 24S37.3 48 24 48 0 37.3 0 24C0 10.8 10.7 0 23.9 0h.1z' }),
+    _react2.default.createElement('path', { fill: '#FFF', d: 'M20 36.4L6.7 23.1l3.6-3.6 9.7 9.9 17.7-17.9 3.6 3.6L20 36.4z' })
   );
 };
 
 SvgIcon.propTypes = propTypes;
 SvgIcon.defaultProps = { "aria-hidden": "true", "className": "", "viewBox": "0 0 48 48", "xmlns": "http://www.w3.org/2000/svg" };
-SvgIcon.displayName = "abnormal";
+SvgIcon.displayName = "success";
 
 exports.default = SvgIcon;

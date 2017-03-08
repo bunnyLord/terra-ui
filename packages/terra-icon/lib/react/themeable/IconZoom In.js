@@ -59,13 +59,12 @@ var SvgIcon = function SvgIcon(customProps) {
   return _react2.default.createElement(
     _Icon2.default,
     attributes,
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M47.7 23.2L24.8.3c-.5-.4-1.1-.4-1.6 0L.3 23.2c-.4.5-.4 1.1 0 1.6l22.9 22.9c.5.4 1.1.4 1.6 0l22.9-22.9c.4-.5.4-1.1 0-1.6zm-.7.9L24.1 47h-.2L1 24.1v-.2L23.9 1h.2L47 23.9v.2z' }),
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M24 8c3.9 3.9 4 13 4 13H15v6c0 10 9 13 9 13-3.9-3.9-4-13-4-13h13v-6c0-10-9-13-9-13z' })
+    _react2.default.createElement('path', { d: 'M47.4 43.3L33.8 29.6c2.2-3.1 3.6-6.8 3.6-10.9A18.8 18.8 0 0 0 18.7 0C8.4 0 0 8.4 0 18.7 0 29 8.4 37.3 18.7 37.3c4.1 0 7.9-1.3 10.9-3.6l13.6 13.6c.8.8 2 .8 2.8 0l1.4-1.4c.8-.6.8-1.9 0-2.6zM2.9 18.7C2.9 10 10 2.9 18.7 2.9S34.4 10 34.4 18.7c0 8.7-7.1 15.8-15.8 15.8S2.9 27.4 2.9 18.7zM30 20H20v10h-3V20H7v-3h10V7h3v10h10v3z' })
   );
 };
 
 SvgIcon.propTypes = propTypes;
 SvgIcon.defaultProps = { "aria-hidden": "true", "className": "", "viewBox": "0 0 48 48", "xmlns": "http://www.w3.org/2000/svg" };
-SvgIcon.displayName = "abnormal";
+SvgIcon.displayName = "zoomIn";
 
 exports.default = SvgIcon;

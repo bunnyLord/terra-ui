@@ -54,18 +54,19 @@ var propTypes = {
 
 var SvgIcon = function SvgIcon(customProps) {
   var attributes = _extends({}, customProps);
-  attributes.className = (0, _classnames2.default)("", attributes.className);
+  attributes.className = (0, _classnames2.default)(" ", attributes.className);
 
   return _react2.default.createElement(
     _Icon2.default,
     attributes,
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M47.7 23.2L24.8.3c-.5-.4-1.1-.4-1.6 0L.3 23.2c-.4.5-.4 1.1 0 1.6l22.9 22.9c.5.4 1.1.4 1.6 0l22.9-22.9c.4-.5.4-1.1 0-1.6zm-.7.9L24.1 47h-.2L1 24.1v-.2L23.9 1h.2L47 23.9v.2z' }),
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M24 8c3.9 3.9 4 13 4 13H15v6c0 10 9 13 9 13-3.9-3.9-4-13-4-13h13v-6c0-10-9-13-9-13z' })
+    _react2.default.createElement('circle', { cx: '19.1', cy: '8.7', r: '8.7' }),
+    _react2.default.createElement('path', { d: 'M34.2 31.9c-.4-6.9-6-12.3-13-12.3H17c-7.2 0-13 5.8-13 13V37h20.2c2.3-2.8 5.8-4.7 10-5.1z' }),
+    _react2.default.createElement('path', { d: 'M48 36.3l-6.8-7.1V34h-4.5C28.5 34 24 39.1 24 45.2v2.4c1-5 4.4-9.1 9.7-9.1h7.5v4.7l6.8-6.9z' })
   );
 };
 
 SvgIcon.propTypes = propTypes;
-SvgIcon.defaultProps = { "aria-hidden": "true", "className": "", "viewBox": "0 0 48 48", "xmlns": "http://www.w3.org/2000/svg" };
-SvgIcon.displayName = "abnormal";
+SvgIcon.defaultProps = { "aria-hidden": "true", "className": " ", "viewBox": "0 0 48 48", "xmlns": "http://www.w3.org/2000/svg", "isBidi": true };
+SvgIcon.displayName = "iPass";
 
 exports.default = SvgIcon;

@@ -54,18 +54,17 @@ var propTypes = {
 
 var SvgIcon = function SvgIcon(customProps) {
   var attributes = _extends({}, customProps);
-  attributes.className = (0, _classnames2.default)("", attributes.className);
+  attributes.className = (0, _classnames2.default)(" ", attributes.className);
 
   return _react2.default.createElement(
     _Icon2.default,
     attributes,
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M47.7 23.2L24.8.3c-.5-.4-1.1-.4-1.6 0L.3 23.2c-.4.5-.4 1.1 0 1.6l22.9 22.9c.5.4 1.1.4 1.6 0l22.9-22.9c.4-.5.4-1.1 0-1.6zm-.7.9L24.1 47h-.2L1 24.1v-.2L23.9 1h.2L47 23.9v.2z' }),
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M24 8c3.9 3.9 4 13 4 13H15v6c0 10 9 13 9 13-3.9-3.9-4-13-4-13h13v-6c0-10-9-13-9-13z' })
+    _react2.default.createElement('path', { d: 'M46.1 9.2H29.3a5.63 5.63 0 0 1-3.2-1.3l-3.3-3.3a5.12 5.12 0 0 0-3.2-1.3L9 3a1.9 1.9 0 0 0-1.9 1.9V9h9.5a5.63 5.63 0 0 1 3.2 1.3l3.3 3.3a5.12 5.12 0 0 0 3.2 1.3h16.9a1.9 1.9 0 0 1 1.9 1.9v18.9h1.1a1.9 1.9 0 0 0 1.9-1.9V11a2 2 0 0 0-2-1.8zM40 18a1.9 1.9 0 0 1 1.9 1.9V43a1.81 1.81 0 0 1-1.8 1.9L2 45a2 2 0 0 1-2-1.9V13.9A1.9 1.9 0 0 1 1.9 12H13a5.37 5.37 0 0 1 3.2 1.3l3.3 3.4a5.37 5.37 0 0 0 3.2 1.3z' })
   );
 };
 
 SvgIcon.propTypes = propTypes;
-SvgIcon.defaultProps = { "aria-hidden": "true", "className": "", "viewBox": "0 0 48 48", "xmlns": "http://www.w3.org/2000/svg" };
-SvgIcon.displayName = "abnormal";
+SvgIcon.defaultProps = { "aria-hidden": "true", "className": " ", "viewBox": "0 0 48 48", "xmlns": "http://www.w3.org/2000/svg", "data-name": "Layer 1", "isBidi": true };
+SvgIcon.displayName = "projects";
 
 exports.default = SvgIcon;

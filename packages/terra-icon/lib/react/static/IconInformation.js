@@ -59,13 +59,13 @@ var SvgIcon = function SvgIcon(customProps) {
   return _react2.default.createElement(
     _Icon2.default,
     attributes,
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M47.7 23.2L24.8.3c-.5-.4-1.1-.4-1.6 0L.3 23.2c-.4.5-.4 1.1 0 1.6l22.9 22.9c.5.4 1.1.4 1.6 0l22.9-22.9c.4-.5.4-1.1 0-1.6zm-.7.9L24.1 47h-.2L1 24.1v-.2L23.9 1h.2L47 23.9v.2z' }),
-    _react2.default.createElement('path', { fill: '#654A08', d: 'M24 8c3.9 3.9 4 13 4 13H15v6c0 10 9 13 9 13-3.9-3.9-4-13-4-13h13v-6c0-10-9-13-9-13z' })
+    _react2.default.createElement('path', { fill: '#007CC3', d: 'M24 0c13.3 0 24 10.7 24 24S37.3 48 24 48 0 37.3 0 24C0 10.8 10.7 0 23.9 0h.1z' }),
+    _react2.default.createElement('path', { fill: '#FFF', d: 'M24.1 32.7c.7-1.8 6.3-11 2.4-13.5-2.2-1.4-5.2-.5-7.6 1.2l-.2 1.6c1.4-.5 2.8-.5 3.2.7 1 2.9-2.5 8-3.5 10.7-2.6 7.2 3.7 8.1 8.1 5.1l.2-1.7c-2.3.6-4-.3-2.6-4.1zM26.5 8c1.9 0 3.5 1.6 3.5 3.5S28.4 15 26.5 15 23 13.4 23 11.5 24.6 8 26.5 8z' })
   );
 };
 
 SvgIcon.propTypes = propTypes;
 SvgIcon.defaultProps = { "aria-hidden": "true", "className": "", "viewBox": "0 0 48 48", "xmlns": "http://www.w3.org/2000/svg" };
-SvgIcon.displayName = "abnormal";
+SvgIcon.displayName = "information";
 
 exports.default = SvgIcon;
